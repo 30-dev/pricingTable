@@ -38,6 +38,7 @@ section{
     display:flex;
     flex-direction: column;
     box-shadow: 0 2px 24px rgba(110, 123, 129, .2);
+    border-radius: 0 0 20px 20px;
 }
 
 .pricing-table__head{
@@ -125,4 +126,59 @@ section{
     font-size: 15px;
     line-height: 24px;
     letter-spacing: -.003em;
+}
+
+
+.pricing-table__include{
+    padding: 64px 40px;  
+    
+}
+
+.pricing-table__include-list{
+    padding: 0 16px 0 0;
+    list-style-position: inside;
+}
+
+.pricing-table__include-list .list-item{
+    display: list-item;
+    list-style: none;
+    padding-left: 40px;
+    margin-bottom: 32px;
+    position: relative;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -.003em;
+    position: relative;
+}
+
+.list-item::before{
+    content: "";
+    background-image: url('assets/check.png');
+    background-size: contain; /* Ajusta el tamaño del SVG */
+    background-repeat: no-repeat; /* Evita que se repita */
+    background-color: #6ab993;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -16px;
+    border-radius: 50%;
+}
+
+.pricing-table__container-btn{
+    /* outline: 	1px solid red; */
+    padding: 0 40px 56px
+}
+
+a.btn-pricing{
+    text-decoration: none;
+    color: var(---color-light);
+    background-color: #26B16D;
+    border-radius: 4px;
+    word-break: break-word;
+    font-size: 18px;
+    padding: 16px 20px;
+    
 }
