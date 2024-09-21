@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+section{
+    color: #0B1720;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.pricing-table__header-title{
+    text-align:center;
+    font-size: 2rem;
+    font-weight:900;
+    letter-spacing: -.024em;
+    margin: 0 0 0 1rem;
+}
+
+.pricing-table__header-description{
+    text-align:center;
+    font-size:1.3rem;
+    font-weight: 400;
+    letter-spacing: -.0055em;
+    line-height: 35px;
+    margin-bottom: 80px
+}
+
+
+
